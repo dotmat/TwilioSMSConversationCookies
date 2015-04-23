@@ -62,4 +62,4 @@ header('content-type: text/xml');
 ?>
 
 
-<Response><Sms><?php echo $TwiMLResponse; ?></Sms></Response>
+<Response><Message><?php echo $TwiMLResponse; ?></Message></Response>
